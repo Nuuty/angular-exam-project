@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'angular-exam-project'}),
     FormsModule,
     HttpModule,
     AppRoutingModule
