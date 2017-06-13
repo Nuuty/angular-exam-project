@@ -1,11 +1,7 @@
 {
   "name": "angular-exam-project",
   "version": "0.0.0",
-  "license": "MIT",
-  "engines": {
-    "node": "6.10.1",
-    "npm": "4.4.4"
-  },
+  "license": "MIT",  
   "scripts": {
     "prestart": "ng build --prod && ngc",
     "start": "ts-node src/server.ts"
