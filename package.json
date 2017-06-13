@@ -2,7 +2,7 @@
   "name": "angular-exam-project",
   "version": "0.0.0",
   "license": "MIT",
-  "engines":{
+  "engines": {
     "node": "6.10.1",
     "npm": "4.4.4"
   },
@@ -45,6 +45,6 @@
     "typescript": "~2.2.0"
   },
   "devDependencies": {
-    
+    "bootstrap": "^4.0.0-alpha.6"
   }
 }
