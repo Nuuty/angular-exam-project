@@ -2,6 +2,10 @@
   "name": "angular-exam-project",
   "version": "0.0.0",
   "license": "MIT",
+  "engines":{
+    "node": "6.10.1",
+    "npm": "4.4.4"
+  },
   "scripts": {
     "ng": "ng",
     "prestart": "ng build --prod && ngc",
@@ -26,9 +30,7 @@
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
     "rxjs": "^5.4.0",
-    "zone.js": "^0.8.12"
-  },
-  "devDependencies": {
+    "zone.js": "^0.8.12",
     "@angular/cli": "1.0.6",
     "@angular/compiler-cli": "^4.0.0",
     "@types/jasmine": "2.5.38",
@@ -46,5 +48,8 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
+  },
+  "devDependencies": {
+    
   }
 }
