@@ -18,7 +18,8 @@ export class HomeComponent implements OnInit {
       { name: 'author', content: 'Niels Odgaard' },
       { name: 'keywords', content: 'gamekeys, games, pc games' },
       { name: 'description', content: 'A company that sells gamekeys and provides an excellent service' },
-      { name: 'og:image', content: 'assets/images/cod_ww2-min.jpg' }
+      { name: 'og:image', content: 'assets/images/cod_ww2-min.jpg' },
+      { name: 'og:type', content: 'article'}
     ])
   }
   
