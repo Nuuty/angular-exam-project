@@ -25,7 +25,6 @@ export class HomeComponent implements OnInit {
   
 
   ngOnInit() {
-
     $('#recipeCarousel').carousel({
     interval: 5000
   })
